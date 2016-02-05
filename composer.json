@@ -1,0 +1,30 @@
+{
+    "name": "sitemap-php/propel-provider",
+    "description": "Propel provider for sitemap-php/SitemapGenerator.",
+    "keywords": ["sitemap", "generator", "seo", "propel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kévin Gomez",
+            "email": "contact@kevingomez.fr",
+            "homepage": "http://www.kevingomez.fr/"
+        }
+    ],
+    "require": {
+        "kphoen/sitemap-generator": "~2.0@dev",
+        "doctrine/orm": "~2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "propel/propel1": "~1.6",
+        "mockery/mockery": "~0.8",
+        "fabpot/php-cs-fixer": "~1.11"
+    },
+    "autoload-dev": {
+        "psr-4": { "SitemapGenerator\\Tests\\": "tests/" }
+    },
+    "autoload": {
+        "psr-4": { "SitemapGenerator\\": "src/" }
+    }
+}
