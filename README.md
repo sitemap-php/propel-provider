@@ -1,4 +1,4 @@
-Propel provider for [SitemapGenerator](https://github.com/sitemap-php/SitemapGenerator<Paste>)
+Propel provider for [SitemapGenerator](https://github.com/sitemap-php/SitemapGenerator)
 ====================================
 
 Generic provider for [sitemap-php/SitemapGenerator](https://github.com/sitemap-php/SitemapGenerator)
